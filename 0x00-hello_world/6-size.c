@@ -2,7 +2,7 @@
 
 /**
  * main - print the byte size of char - int - long - long long - float
- * return 0 when ran properly
+ * Return: 0 when ran properly
  */
 int main(void)
 {
