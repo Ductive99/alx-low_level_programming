@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * main - print all single digit positive integers
+ * Return: 0 when ran properly
+ */
 int main(void)
 {
 	int n;
