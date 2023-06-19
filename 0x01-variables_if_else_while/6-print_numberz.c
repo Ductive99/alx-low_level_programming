@@ -2,7 +2,7 @@
 
 /**
  * main - print single digit positive numbers using putchar()
- * Reaturn: 0 when ran properly
+ * Return: 0 when ran properly
  */
 int main(void)
 {
