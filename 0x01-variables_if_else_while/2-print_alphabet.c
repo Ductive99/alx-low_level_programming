@@ -6,6 +6,9 @@
  */
 int main(void)
 {
-	putchar('abcdefghijklmnopqrstuvwxyz');
+	for (char letter = 'a'; letter <= 'z'; letter++)
+	{
+		putchar(letter);
+	}
 	return (0);
 }
