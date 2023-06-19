@@ -4,7 +4,7 @@
  * main - print all possible three-digit combs
  * Return: 0 when ran properly
  */
-int main (void)
+int main(void)
 {
 	int n1;
 	int n2;
