@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _islower - checks whether a character is alphabetic or not
+ * _isalpha - checks whether a character is alphabetic or not
  * Return: 1 if chharacter is alphabetic, 0 if not
  */
-int _islower(int c)
+int _isalpha(int c)
 {
-	return ((c >= 97 && c <= 122) || (c >= 'A' && c <= 'Z'));
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
