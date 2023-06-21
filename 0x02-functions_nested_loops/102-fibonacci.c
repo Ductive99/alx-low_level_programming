@@ -19,7 +19,7 @@ int main(void)
 		printf("%ld", temp);
 		n0 = n1;
 		n1 = temp;
-		if (i != 49)
+		if (i != 47)
 			printf(", ");
 	}
 	printf("\n");
