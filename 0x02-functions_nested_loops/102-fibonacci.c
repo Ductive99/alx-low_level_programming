@@ -8,12 +8,12 @@
 int main(void)
 {
 	int i;
-       	long temp;
+	long temp;
 	long n0 = 1;
 	long n1 = 2;
 
 	printf("%ld, %ld, ", n0, n1);
-	for (i = 0; i < 50; i++)
+	for (i = 0; i < 48; i++)
 	{
 		temp = n0 + n1;
 		printf("%ld", temp);
