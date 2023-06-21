@@ -4,6 +4,7 @@
  * main - tests the function positive_or_negative for 0
  * Return: 0 when ran properly
  */
+
 int main(void)
 {
 	int i;
