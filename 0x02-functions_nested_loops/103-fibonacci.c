@@ -15,7 +15,6 @@ int main(void)
 	while (n0 + n1 < 40000000)
 	{
 		temp = n0 + n1;
-		printf("%ld", temp);
 		n0 = n1;
 		n1 = temp;
 		if (n1 % 2 == 0)
