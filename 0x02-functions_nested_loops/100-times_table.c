@@ -5,7 +5,7 @@
  * @n; 0 < n <= 15
  * Return: 0
  */
-void print_times_table(void)
+void print_times_table(int n)
 {
 	int n1;
 	int n2;
