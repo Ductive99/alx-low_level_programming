@@ -12,7 +12,7 @@ int main(void)
 	long n1 = 2;
 	long sum = 2;
 
-	while (n0 + n1 < 40000000)
+	while (n0 + n1 < 4000000)
 	{
 		temp = n0 + n1;
 		n0 = n1;
