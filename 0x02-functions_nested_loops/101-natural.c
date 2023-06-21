@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * natural - prints the sum of all multiples of 3 and 5 below 1024(excluded)
+ * main - prints the sum of all multiples of 3 and 5 below 1024(excluded)
  * Return: 0
  */
 int main(void)
