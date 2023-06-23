@@ -3,7 +3,7 @@
 
 /**
  * main - print numbers from 1 to 10
- * Fizz instead of multiples of 3 
+ * Fizz instead of multiples of 3
  * Buzz instead of multiples of 5
  * FizzBuzz instead of multiples of both 3 & 5
  * Return: 0 when ran succefully
