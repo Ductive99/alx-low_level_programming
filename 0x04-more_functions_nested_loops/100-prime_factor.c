@@ -14,13 +14,16 @@ int main(void)
 
 	n = 612852475143;
 	largest_prime_factor = 1;
-	
+
 	for (i = 1; i < sqrt(n); i++)
 	{
 		if (i % n == 0)
 			largest_prime_factor = i;
 	}
-	printf("%ld\n", largest_prime_factor);
+	if (largest_prime_factor == 1)
+		printf("%ld\n", n);
+	else
+		printf("%ld\n", largest_prime_factor);
 
 	return (0);
 }
