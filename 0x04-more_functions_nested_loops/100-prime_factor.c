@@ -26,7 +26,7 @@ int main(void)
 	if (largest == 1)
 		printf("%ld\n", n);
 	else
-		printf("%ld\n", largest);
+		printf("%ld\n", n);
 
 	return (0);
 }
