@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - find and print the largest prim efactor of 612852475143
@@ -21,4 +21,6 @@ int main(void)
 			largest_prime_factor = i;
 	}
 	printf("%ld\n", largest_prime_factor);
+
+	return (0);
 }
