@@ -13,8 +13,16 @@ void puts2(char *str)
 
 	i = 0;
 
-	while (*(str + i) != '\0')
+	while (str[i] != '\0')
 	{
+		if (i > 0)
+		{
+			if (str[i + 1] == '\0')
+			{
+				_putchar(str[i]);
+				break;
+			}
+		}
 		_putchar(*(str + i));
 		i = i + 2;
 	}
