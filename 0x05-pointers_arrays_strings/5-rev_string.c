@@ -5,21 +5,19 @@
  * @s: string to be reversed
  * Return: void
  */
+int size(char *s);
 
 void rev_string(char *s)
 {
 	int i, j;
 	int len;
+	char temp[size(s)];
 
 	i = 0;
 	j = 0;
 
-	while (*(s + i) != '\0')
-		i++;
+	len = size(s);
 
-	len = i;
-
-	char temp[len];
 
 	for (i = i - 1; i >= 0; i--)
 	{
@@ -28,4 +26,21 @@ void rev_string(char *s)
 	}
 	for (j = 0; j < len; j++)
 		*(s + j) = *(temp + j);
+}
+
+/**
+ * size - returns the length of a string
+ * @s: that string
+ * Return: the strings length
+ */
+
+int size(char *s)
+{
+	int i;
+
+	i = 0;
+
+	while (s[i] != '\0')
+		i++;
+	return (i);
 }
