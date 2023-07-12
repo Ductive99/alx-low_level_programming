@@ -17,13 +17,13 @@ char **strtow(char *str)
 	int i, j, k, z, n;
 	char **words;
 
-	if (str == NULL || *str == '\0' || str == ' ')
+	if (str == NULL || *str == '\0')
 		return (NULL);
 
 	n = word_counter(str);
 
 	words = malloc(sizeof(char *) * (n + 1));
-	if (words == NULL)
+	if (words == NULL || n == 0)
 		return (NULL);
 
 	for (i = j = 0; i < n; i++)
