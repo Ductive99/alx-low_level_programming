@@ -2,6 +2,8 @@
 #include <stddef.h>
 #include "main.h"
 
+int word_counter(char *s);
+
 /**
  * strtow - splits a string into words
  * @str: the string to split
@@ -15,7 +17,7 @@ char **strtow(char *str)
 	int i, j, k, z, n;
 	char **words;
 
-	if (str == NULL || str == "")
+	if (str == NULL || *str == '\0')
 		return (NULL);
 
 	n = word_counter(str);
@@ -54,7 +56,7 @@ char **strtow(char *str)
 
 int word_counter(char *s)
 {
-	int i;
+	int i, count;
 
 	i = 0;
 
