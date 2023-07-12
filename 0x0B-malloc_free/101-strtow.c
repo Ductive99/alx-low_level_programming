@@ -17,7 +17,7 @@ char **strtow(char *str)
 	int i, j, k, z, n;
 	char **words;
 
-	if (str == NULL || *str == '\0')
+	if (str == NULL || *str == '\0' || str == ' ')
 		return (NULL);
 
 	n = word_counter(str);
