@@ -6,6 +6,9 @@
  * @argc: number of arguments
  * @argv: the arguments
  * Return: 0 when ran successfuly
+ *
+ * Unfinished
+ *
  */
 
 int main(int argc, char *argv[])
