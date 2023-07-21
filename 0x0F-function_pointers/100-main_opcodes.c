@@ -3,7 +3,8 @@
 
 void print_opc(char *s, int n);
 
-/** main - prints the opcodes of its own main function
+/**
+ * main - prints the opcodes of its own main function
  *
  * @argc: number of arguments
  * @argv: the arguments
