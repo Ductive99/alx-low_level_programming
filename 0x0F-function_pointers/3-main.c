@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
 	if (argc != 4)
 	{
 		printf("Error\n");
-		return (0);
+		exit(100);
 	}
 
 	fn = get_op_func(argv[2]);
@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 	if (!fn)
 	{
 		printf("Error\n");
-		return (0);
+		exit(101);
 	}
 
 	printf("%d\n", fn(atoi(argv[1]), atoi(argv[3])));
