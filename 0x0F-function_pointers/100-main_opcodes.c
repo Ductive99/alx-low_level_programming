@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 	}
 
 	n = atoi(argv[1]);
-	if (a < 0)
+	if (n < 0)
 	{
 		printf("Error\n");
 		exit(2);
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 
 	print_opc((char *)&main, n);
 
-	return (0)
+	return (0);
 }
 
 /**
@@ -47,7 +47,7 @@ void print_opc(char *s, int n)
 
 	for (i = 0; i < n; i++)
 	{
-		printf("%.2hhx", a[i]);
+		printf("%.2hhx", s[i]);
 		if (i < n - 1)
 			printf(" ");
 	}
