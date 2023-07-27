@@ -1,7 +1,5 @@
 #include "lists.h"
 
-void print_count(size_t n);
-
 /**
  * print_list - prints all the elements of a list_t list
  * list_t list is a singly linked list
