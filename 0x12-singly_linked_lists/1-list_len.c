@@ -13,7 +13,7 @@ size_t list_len(const list_t *h)
 {
 	size_t node_count;
 
-	for (node_cout = 0; h != NULL; node_count++)
+	for (node_count = 0; h != NULL; node_count++)
 		h = h->next;
 
 	return (node_count);
