@@ -11,12 +11,13 @@
 void print_binary(unsigned long int n)
 {
 	int bitCount = sizeof(unsigned long int) * 8;
+	unsigned long int mask;
 	int leadingZero = 1, i;
-    
+
 	for (i = bitCount - 1; i >= 0; i--)
 	{
-		unsigned long int mask = 1ul << i;
-		if ((n & mask) || !leadingZero) 
+		mask = 1ul << i;
+		if ((n & mask) || !leadingZero)
 		{
 			leadingZero = 0;
 			_putchar((n & mask) ? '1' : '0');
