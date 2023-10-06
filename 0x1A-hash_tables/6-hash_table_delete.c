@@ -20,10 +20,10 @@ void hash_table_delete(hash_table_t *ht)
 			while (p)
 			{
 				tmp = p->next;
-				free(node->key);
-				free(node->value);
-				free(node);
-				node = tmp;
+				free(p->key);
+				free(p->value);
+				free(p);
+				p = tmp;
 			}
 		}
 	}
